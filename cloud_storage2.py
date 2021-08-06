@@ -1,5 +1,6 @@
 import os
 import dropbox
+from dropbox.files import WriteMode
 
 class TransferData:
     def __init__(self,access_token):
